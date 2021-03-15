@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+/* style for the a tag */
+nav > a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* style for logo */
+nav > a #logo {
+    font-weight: 300;
+    letter-spacing: -2.5px;
+    position: relative;
+}
+/* psuedo selector */
+nav #logo::before {
+    content: "";
+    background-color: #7fe2e2;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    right: -6px;
+    top: 0;
+}
+
+nav #logo::after {
+    content: "";
+    background-color: #7fe2e2;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: -21px;
+    top: -13px;
+}
+}
+
+nav a #logo span {
+    font-weight: 500;
+}
+
+/* style for nav links */
+nav ul {
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+/* for the nav download button */
+
+nav #download-btn {
+    font-size: 12px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 0px 10px;
+}
