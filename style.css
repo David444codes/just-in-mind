@@ -10,6 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    border-bottom: 0.7px solid rgb(218, 216, 216);
 }
 /* style for the a tag */
 nav > a {
@@ -75,4 +76,55 @@ nav #download-btn {
     color: #fff;
     padding: 8px 15px;
     margin: 0px 10px;
+}
+
+/* for the main content */
+section {
+    margin: 10% 20%;
+    
+}
+
+.main p {
+    font-size: 9px;
+    color: #b4b3b3;
+    letter-spacing: 1px;
+}
+
+.main span {
+    color: black;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+section .down {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2px;
+
+}
+.links p {
+    color: #a3a3a3;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding-top: 35px;
+    
+}
+
+.links ul {
+    display: flex;
+    
+    
+
+}
+
+.links ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: mediumturquoise;
+   font-size: 10px;
+    
 }
