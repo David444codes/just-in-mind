@@ -81,6 +81,8 @@ nav #download-btn {
 /* for the main content */
 section {
     margin: 10% 20%;
+    display: flex;
+
     
 }
 
@@ -99,7 +101,8 @@ section {
 section .down {
     font-size: 30px;
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    
 
 }
 .links p {
@@ -127,4 +130,9 @@ section .down {
     color: mediumturquoise;
    font-size: 10px;
     
+}
+
+.image img {
+    width: 100%;
+
 }
